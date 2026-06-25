@@ -1,0 +1,37 @@
+=== IT332 MT3 Git Lab Submission ===
+Student:
+JakeEstano
+
+=== git remote -v ===
+origin	https://github.com/JakeEstano/it332-git-lab.git (fetch)
+origin	https://github.com/JakeEstano/it332-git-lab.git (push)
+
+=== Full commit log ===
+* cd7f826 Revert "Add feature (squashed)"
+* 15f21ef Add feature (squashed)
+*   eb4d2e1 Resolve README conflict
+|\  
+| * bc9c7e9 Teammate conflicting edit
+* | b9dbc73 My conflicting edit
+|/  
+* cbb8341 Teammate edits README
+* 89b02ab Initial commit
+
+=== Final README.md ===
+# IT332 Git Lab
+Line added by teammate
+CONFLICT: my version
+CONFLICT: teammate version
+=== Final feature.txt ===
+
+=== git status ===
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	mt3_git_output.txt
+	notes.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
